@@ -173,14 +173,9 @@
     border-radius:20px;
     background:linear-gradient(160deg,var(--navy-3),var(--navy-2));
     border:1px solid rgba(242,169,60,.35);
-    display:flex;flex-direction:column;align-items:center;justify-content:center;
-    gap:12px;
-    color:#7f93b8;
     overflow:hidden;
   }
-  .hero-photo-placeholder i{font-size:74px;color:#3d5885;}
-  .hero-photo-placeholder span{font-size:13px;font-weight:600;letter-spacing:.3px;color:#7f93b8;}
-  .hero-photo-placeholder img{width:100%;height:100%;object-fit:cover;display:none;}
+  .hero-photo-placeholder img{width:100%;height:100%;object-fit:cover;display:block;}
 
   .floating-card{
     position:absolute;
