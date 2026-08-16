@@ -1,4 +1,4 @@
-  :root{
+:root{
     --navy:#0a1e3f;
     --navy-2:#0d2750;
     --navy-3:#123469;
@@ -298,7 +298,6 @@
     display:grid;
     grid-template-columns:repeat(4,1fr);
     gap:20px;
-    align-items:start;
   }
   .exp-card{
     background:var(--bg);
@@ -306,6 +305,8 @@
     border-radius:14px;
     padding:24px 20px;
     transition:.25s;
+    display:flex;
+    flex-direction:column;
   }
   .exp-card:hover{transform:translateY(-6px);box-shadow:var(--shadow);}
   .exp-logo{
@@ -329,7 +330,7 @@
   .exp-card h3{font-size:15.5px;color:var(--navy);margin-bottom:4px;}
   .exp-card .exp-date{font-size:12px;font-weight:600;color:#3b6fd6;margin-bottom:6px;}
   .exp-card .exp-tools{font-size:11px;font-weight:500;color:#8b98ab;margin-bottom:14px;}
-  .exp-card ul{display:flex;flex-direction:column;gap:9px;}
+  .exp-card ul{display:flex;flex-direction:column;gap:9px;flex:1;}
   .exp-card li{
     font-size:12.5px;color:var(--muted);
     position:relative;padding-left:14px;line-height:1.45;
